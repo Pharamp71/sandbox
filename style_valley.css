@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+
+h1 {
+     font-family: "Anton", system-ui;
+     font-size: 192px;
+     font-weight: 400;
+     color: #ded0aa;
+}
+
+h2 {
+font-family: "Anton", sans-serif;
+font-size: 50px;
+font-weight: 400;
+}
+
+.txt-center{
+     text-align: center;
+}
+
+.btn{
+     text-decoration: none;
+     background-color: brown;
+     border-radius: 15px;
+     color: black;
+     padding: 10px 10px 10px 10px;
+     display: inline-block;
+}
