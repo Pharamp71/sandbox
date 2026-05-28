@@ -1,0 +1,128 @@
+*{
+    margin: 0; /* retirer toutes les marges externes*/
+padding: 0; /* retirer toutes les amrges internes*/
+box-sizing: border-box; /* garder la mains sur la taille d'in element */
+}
+
+.h2 {
+    color: brown;
+}
+
+.date{
+    color: orange;
+}
+
+.fond{
+    background-color: yellow;
+}
+
+.fond-rouge{
+    background-color: red;
+}
+
+.fond-vert{
+    background-color: green;
+}
+
+.text-center{
+    text-align: center;
+}
+
+.p-30{
+    padding: 30px;
+}
+
+.btn{
+    text-decoration: none;
+    padding: 10px 20px 10px 20px;
+    color: white;
+    font-weight: 800;
+    display: inline-block;
+    border-radius: 15px;
+
+}
+
+.margin-bottom{
+    margin-bottom: 20px;
+}
+
+.bg-bleu{
+    background-color: cadetblue;
+}
+
+.btn-2{
+    text-decoration: none;
+    padding: 10px 20px;
+    color: white;
+    background-color: blue;
+    border-radius: 10px;
+    display: inline-block;
+}
+
+.card{
+    width: 30%;
+    padding: 30px;
+    border-radius: 10px;
+
+}
+
+.bleudark{
+    color: rgb(28, 28, 103);
+}
+
+/* flex box */
+
+.flex{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.boites-enfant {
+  width:30%;
+  height:100px;
+  background:lightblue;
+}
+
+.boite-parente {
+display : flex; 
+justify-content:space-between;
+}
+
+.espace-entre{
+    justify-content: space-between;
+}
+
+.bg-gray{
+    background-color: gray;
+}
+
+.radius-10{
+    border-radius: 10px;
+}
+
+.w-28{
+    width: 28%;
+}
+
+.w-20{
+    width: 20%;
+}
+
+.w-23{
+    width: 23%;
+}
+
+.gap-10{
+    gap: 10px;
+}
+
+.container{
+    max-width: 1000px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: aqua;
+}
+
+
+
